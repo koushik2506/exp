@@ -1,0 +1,28 @@
+# Process this file with autoconf to produce a configure script.
+AC_INIT(xautomation, 1.03)
+AM_INIT_AUTOMAKE
+
+AC_DEFINE(DEBUG_A_LOO)
+
+# Checks for programs.
+AC_PROG_CC
+AC_PATH_XTRA
+
+# Checks for libraries.
+ac_save_LIBS=$LIBS
+AC_CHECK_LIB(png, png_read_info)
+LIBS=$ac_save_LIBS
+
+# Checks for header files.
+#AC_CHECK_LIB(X11, XOpenDisplay)
+#AC_CHECK_LIB(Xtst, XTestFakeButtonEvent)
+AC_CHECK_HEADERS([stdlib.h unistd.h wchar.h locale.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+
+# Checks for library functions.
+#AC_FUNC_MALLOC
+AC_CHECK_FUNCS([bzero wmemset mbstowcs])
+
+AC_OUTPUT(Makefile)

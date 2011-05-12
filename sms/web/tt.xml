@@ -1,0 +1,25 @@
+<wap-provisioningdoc>
+<characteristic type="BOOTSTRAP">
+<parm name="NAME" value="MunduSync"/>
+</characteristic>
+<characteristic type="APPLICATION">
+<parm name="APPID" value="w5"/>
+<parm name="TO-NAPID" value="INTERNET"/>
+<parm name="NAME" value="MunduSync"/>
+<parm name="ADDR" value="http://s-syncml.geodesic.net"/>
+<characteristic type="RESOURCE">
+<parm name="URI" value="./contacts"/>
+<parm name="NAME" value="Contacts DB"/>
+<parm name="AACCEPT" value="text/x-vcard"/>
+</characteristic>
+<characteristic type="RESOURCE">
+<parm name="URI" value="./calendar"/>
+<parm name="NAME" value="Calendar DB"/>
+<parm name="AACCEPT" value="text/x-vcalendar"/>
+</characteristic>
+<characteristic type="APPAUTH">
+<parm name="AAUTHNAME" value="mundu"/>
+<parm name="AAUTHSECRET" value="picopeta"/>
+</characteristic>
+</characteristic>
+</wap-provisioningdoc>

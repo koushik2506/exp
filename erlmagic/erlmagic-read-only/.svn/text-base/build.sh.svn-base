@@ -1,0 +1,1 @@
+gcc im.cpp -o im `Magick++-config --cppflags --cxxflags --ldflags --libs` -I/usr/lib/erlang/lib/erl_interface-3.5.5.1/include -L/usr/lib/erlang/lib/erl_interface-3.5.5.1/lib -lerl_interface -lei `pkg-config --libs gthread`

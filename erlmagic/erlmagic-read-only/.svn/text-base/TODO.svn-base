@@ -1,0 +1,22 @@
+Goal: implement the example as PerlMagick's example.pl http://www.imagemagick.org/source/examples.pl
+
+- enhance handling of Geometry (need to be able to specify size and place as opposed to only place. Probably should just implement the string interface.  DONE.
+- Montage DONE
+- Enhance montage to accept montage options. DONE
+- Fix display command. Proble is that im is single threaded and while display the erlang tick doesn't get returned, thus causing the erlang process to disconnect it.
+- im crashes when I exit the erlang process.
+- Implement NoiseType DONE
+- Implement ChannelType DONE
+- debug the level command. I've tried every set of parameters I can think of. The image just comes up white.
+- contraststretch?
+- convolve
+- Implement Drawables.
+- Fx?
+- read gradient.
+- quantize parameters for monochrome?
+- motionblur
+- read plasma:fractal?
+- radialblur
+- resize must be scale
+- sigmoidalcontrast?
+- vignette?

@@ -1,0 +1,61 @@
+.\" Copyright (C), 2003 Kapil Hari Paranjape
+.\"
+.\" You may distribute under the terms of the GNU General Public
+.\" License as specified in the file /usr/share/common-licences/GPLv2
+.\" that comes with the Debian distribution.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH XMOUSEPOS 1 "15 December 2007"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+xmousepos \- Gets and prints the current mouse position
+.SH SYNOPSIS
+.B xmousepos
+.I "[windowid]"
+.SH DESCRIPTION
+.B xmousepos
+is a program that gets and prints the current mouse position in the
+window specified by
+.I windowid
+or from the current window by default. The output has the form
+.I X Y U V
+where
+.TP
+.I X
+- root x position
+.TP
+.I Y
+- root y position
+.TP
+.I U
+- mouse relative x position to the window.
+.TP
+.I V
+- mouse relative y position to the window.
+
+.SH SEE ALSO
+.BR pat2ppm (1),
+.BR patextract (1),
+.BR png2pat (1),
+.BR rgb2pat (1),
+.BR visgrep (1).
+
+.SH AUTHOR
+.B xmousepos
+was written by Steve Slaven <bpk@hoopajoo.net>.
+.PP
+This manual page was written by Kapil Hari Paranjape <kapil@debian.org>,
+for the Debian project (but may be used by others).

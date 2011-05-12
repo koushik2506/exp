@@ -1,0 +1,120 @@
+
+2009-04-14    Steve Slaven <bpk@hoopajoo.net>
+        * version bump
+
+2009-04-14    Marco Steinacher <msteinacher@websource.ch>
+        * Patch related to debian bug #523199, fixes group/shift
+          modifier bug for different keyboard layouts and also adds
+          multi_key sequences.
+
+2008-03-17    Steve Slaven <bpk@hoopajoo.net>
+        * Version bump
+        * Use the keycode index we're working from in the current keysym
+          map instead of doing another keysym lookup so that our
+          modifiers map to the proper keycodes in the case where a
+          keysem might have different keycodes with different modifiers
+          (e.g. less = keycode 59 + shift or keycode 94 with no
+          modifiers)
+        * Show keycode we got in debug
+        * Fixed format to be char not string so we don't crash
+        * Enable debug by default
+
+2008-01-23    Steve Slaven <bpk@hoopajoo.net>
+        * Add missing manpages to dist, bump version
+
+2007-12-31    Steve Slaven <bpk@hoopajoo.net>
+        * Bump version
+        * Fix some compile warnings, add not about where to get window
+          id and that it must be in hex
+        * Patch to clean up the linking to only use the libs needed and
+          added the manpages from the debian project thanks to the
+          maintainer Kapil Hari Paranjape
+
+2007-12-04    Steve Slaven <bpk@hoopajoo.net>
+        * More comments and warnings thanks to mncharity@vendian.org
+        * This should allow the source and match to be the same size and
+          also adds some extra warning/errors, thanks to
+          mncharity@vendian.org
+        * Added non-portable image message
+        * Spacing changes
+        * Added xmousepos
+        * Small app to get mouse position
+        * Fixed up the key and str commands, now key is specifically for
+          sending a keysym, and str is specifically to (attempt) to send
+          the characters in a string.
+
+2007-10-01    Steve Slaven <bpk@hoopajoo.net>
+        * This patch changes causes xte to query the current keyboard
+          layout instead of using a hardcoded table and also adds
+          unicode support, big thanks to Marco Steinacher
+
+2006-05-18    Steve Slaven <bpk@hoopajoo.net>
+        * Added dist-info config for my mkdist command
+        * Changed CFLAGS to AM_CFLAGS
+        * Removed automake file, updated config for newer
+          autoconf/automake, fixed XFlush bug in 'str' command pointed
+          out by thorsten@staerk.de
+
+2005-12-12    Steve Slaven <bpk@hoopajoo.net>
+        * Fixed typo in Backspace to BackSpace
+
+2004-05-13    Steve Slaven <bpk@hoopajoo.net>
+        * Added -x flag to set display for controlling remote X
+          sessions, modified patch from Chris Lalancette <chris.lalancette@gd-
+          ais.com>
+
+2004-04-27    Steve Slaven <bpk@hoopajoo.net>
+        * Fixed segfault bug when running without exit, prints error
+          message now
+
+2004-04-21    Steve Slaven <bpk@hoopajoo.net>
+        * Inc'd version
+        * James Cameron <quozl@us.netrek.org> * visgrep.c: change exit
+          status to match grep(1) style; zero for successful match, 1
+          for no match, 2 for command error. Wrap usage message for 80
+          column default.
+
+2003-12-15    Steve Slaven <bpk@hoopajoo.net>
+        * Inc'd release number
+        * On powerpc, the program loops with "Unhandled option" error.
+          This is due to the fact that getopt returns an int and not a
+          char (which is too small to contain EOF = -1). The attached
+          patch corrects this as well as many warnings about undeclared
+          functions and unused variables.
+
+2003-09-16    Steve Slaven <bpk@hoopajoo.net>
+        * Removed xgrab
+
+2003-02-14    Steve Slaven <bpk@hoopajoo.net>
+        * Forgot to include kbd_*.h in distribution
+
+2003-02-10    Steve Slaven <bpk@hoopajoo.net>
+        * Added keymap support for non-us keyboards and a keymap from
+          Stefan Nickl
+
+2002-08-15    Steve Slaven <bpk@hoopajoo.net>
+        * Fixed annoying uninitialized shift bug, thanks to Bill
+          Saunders
+
+2002-08-12    Steve Slaven <bpk@hoopajoo.net>
+        * Added support for converting many common characters that are
+          not the same name as keysyms, e.g. /@#$?
+
+2002-08-10    Steve Slaven <bpk@hoopajoo.net>
+        * Added support to extract subimages, and to convert patterns
+          to ppm files
+
+2002-08-06    Steve Slaven <bpk@hoopajoo.net>
+        * Added relative mouse movement commands
+
+2002-07-26    Steve Slaven <bpk@hoopajoo.net>
+        * RGBA png support now, and alpha channel support. Fixed more
+          typos in xte. Patterns created with old version of xautomation
+          tools will not be compatible with this and future releases
+        * Fixed some small bugs with the mousemove command, thanks
+          Tom Bradley
+
+2002-07-25    Steve Slaven <bpk@hoopajoo.net>
+        * Fixed up some version stuff for initial release
+        * Initial revision
+        * New repository initialized by cvs2svn.

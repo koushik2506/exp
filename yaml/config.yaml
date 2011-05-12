@@ -1,0 +1,82 @@
+## MunduSync Config File
+
+logging:
+	enabled: true
+	path: "/var/log/mundusync/"
+
+ssl:
+	cert: "../cert_a/syncml.stage.geodesic.com.crt"
+	ca_cert: "../cert_a/gd_bundle.crt"
+	key: "../cert_a/syncml.stage.geodesic.com.key"
+	passphrase: "geoInfo08"
+
+mail:
+	port: 25
+	hostname: "mail.bangalore.geodesic.com"
+	auth_type: "PLAIN"
+	username: ""
+	password: ""
+
+
+listeners:
+	# One plain syncml listener on 80 
+	- type: syncml
+	  transport: http
+	  hostname: "s-syncml.geodesic.net"
+	  port: 80
+	  additional:
+	  	- fsnode: 'fsnode@beta.picopeta.com'
+		  database:
+		  	- type: mnesia
+			  data: ['dbnode@beta.picopeta.com']
+		  timeout: 180
+		  contact_photo_size: 15630
+		  respuri: "http://syncml.stage.geodesic.com"
+
+	# One SSL syncml listener on 444
+	- type: syncml
+	  transport: https
+	  hostname: "s-syncml.geodesic.net"
+	  port: 444
+	  additional:
+	  	- fsnode: 'fsnode@beta.picopeta.com'
+		  database:
+		  	- type: mnesia
+			  data: ['dbnode@beta.picopeta.com']
+		  timeout: 180
+		  contact_photo_size: 15630
+		  respuri: "https://s-syncml.geodesic.net:444"
+
+	# One SSL API on 443
+	- type: api
+	  transport: https
+	  hostname: "s-syncml.geodesic.net"
+	  port: 443
+	  additional:
+	  	- fsnode: 'fsnode@beta.picopeta.com'
+		  database:
+		  	- type: mnesia
+			  data: ['dbnode@beta.picopeta.com']
+		  smsnode: 'smsnode@gnu.geodesic.net'
+		  timeout: 1800
+		  file_server_url: "http://beta.geodesic.net:82/"
+		  api_url: "https://syncml.stage.geodesic.com"
+		  email_confirm_url: "http://cosmos.bangalore.geodesic.com:8090/mundu-sync/v0.9.11/confim.php?status="
+		  reset_password_url: "http://cosmos.bangalore.geodesic.com:8090/mundu-sync/v0.9.11/resetpass.php"
+
+	# One Plain API on 444
+	- type: api
+	  transport: http
+	  hostname: "s-syncml.geodesic.net"
+	  port: 9014
+	  additional:
+	  	- fsnode: 'fsnode@beta.picopeta.com'
+		  database:
+		  	- type: mnesia
+			  data: ['dbnode@beta.picopeta.com']
+		  smsnode: 'smsnode@gnu.geodesic.net'
+		  timeout: 1800
+		  file_server_url: "http://beta.geodesic.net:82/"
+		  api_url: "https://syncml.stage.geodesic.com"
+		  email_confirm_url: "http://cosmos.bangalore.geodesic.com:8090/mundu-sync/v0.9.11/confim.php?status="
+		  reset_password_url: "http://cosmos.bangalore.geodesic.com:8090/mundu-sync/v0.9.11/resetpass.php"

@@ -1,0 +1,145 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\"
+.\" Copyright (C), 2003 Aurelien Jarno
+.\"
+.\" You may distribute under the terms of the GNU General Public
+.\" License as specified in the file /usr/share/common-licences/GPLv2
+.\" that comes with the Debian distribution.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH XTE 1 "October 18, 2003"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+xte \- Generates fake input using the XTest extension
+.SH SYNOPSIS
+.B xte
+.I "[options] commands..."
+.SH DESCRIPTION
+.B xte
+is a program that generates fake input using the XTest extension, more reliable than xse.
+
+.SH OPTIONS
+A summary of options is included below.
+.TP
+.B \-x display
+Send commands to remote X server. Note that some commands may not work correctly unless
+the display is on the console, e.g. the display is currently controlled by the keyboard
+and mouse and not in the background. This seems to be a limitation of the XTest
+extension.
+.TP
+.B \-\-help, \-h
+Show summary of options.
+.SH COMMANDS
+.TP
+.BI "key " "k"
+Press and release key k
+.TP
+.B "keydown " "k"
+Press key k down
+.TP
+.BI "keyup " "k"
+Release key k
+.TP
+.BI "str " "string"
+Do a bunch of key X events for each char in string
+.TP
+.BI "mouseclick " "i"
+Click mouse button i
+.TP
+.BI "mousemove " "x y"
+Move mouse to screen position x, y
+.TP
+.BI "mousermove " "x y"
+Move mouse relative from current location by x, y
+.TP
+.BI "mousedown " "i"
+Press mouse button i down
+.TP
+.BI "mouseup " "i"
+Release mouse button i
+.TP
+.BI "sleep " "x"
+Sleep x seconds
+.TP
+.BI "usleep " "x"
+Usleep x microseconds
+
+.SH SOME USEFUL KEYS
+This keys are case sensitive.
+.sp
+.br
+Home
+.br
+Left
+.br
+Up
+.br
+Right
+.br
+Down
+.br
+Page_Up
+.br
+Page_Down
+.br
+End
+.br
+Return
+.br
+BackSpace
+.br
+Tab
+.br
+Escape
+.br
+Delete
+.br
+Shift_L
+.br
+Shift_R
+.br
+Control_L
+.br
+Control_R
+.br
+Meta_L
+.br
+Meta_R
+.br
+Alt_L
+.br
+Alt_R
+.br
+Multi_key
+
+.SH SEE ALSO
+.BR pat2ppm (1),
+.BR patextract (1),
+.BR png2pat (1),
+.BR rgb2pat (1),
+.BR visgrep (1).
+
+.SH AUTHOR
+.B xte
+was written by Steve Slaven <bpk@hoopajoo.net>.
+
+.SH LIMITATIONS
+.PP
+The \fBstr\fP command doesn't support Unicode characters with more
+than two bytes. Further, character composing sequences to generate
+special charactes are limited to Multi_key plus two characters. The
+set of supported characters depends on the current keyboard layout.
+

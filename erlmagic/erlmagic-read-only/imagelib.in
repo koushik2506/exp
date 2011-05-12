@@ -1,0 +1,34 @@
+-module(imagelib).
+-compile(export_all).
+
+rpc(Host, Query) ->
+    {any, Host} ! {self(), Query},
+    receive
+	Reply ->
+	    Reply
+    end.
+
+start() ->
+    {ok, Hostname} = inet:gethostname(),
+    list_to_atom("c1@" ++ Hostname).
+
+read(Host, File) ->
+    rpc(Host, {read, File}).
+
+write(Host, File) ->
+    rpc(Host, {write, File}).
+
+delete(Host, Image) ->
+    rpc(Host, {delete, Image}).
+
+montageImages(Host, ImageList, Opts, File) ->
+    rpc(Host, {montageImages, ImageList, Opts, File}).
+
+clone(Host, Image) ->
+    rpc(Host, {clone, Image}).
+
+clear(Host, _) ->
+    rpc(Host, {clear}).
+
+attribute(Host, Image, Attribute) ->
+    rpc(Host, {attribute, Image, Attribute}).

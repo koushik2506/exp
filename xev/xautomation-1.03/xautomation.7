@@ -1,0 +1,73 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\"
+.\" Copyright (C), 2005 Aurelien Jarno
+.\"
+.\" You may distribute under the terms of the GNU General Public
+.\" License as specified in the file /usr/share/common-licences/GPLv2
+.\" that comes with the Debian distribution.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH XAUTOMATION 7 "August 08, 2005"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+xautomation \- control X from the command line, and find things on the screen
+.SH DESCRIPTION
+.B xautomation
+is a set of command lines programs to control X and do "visual scraping" to
+find things on the screen. The control interface allows mouse movement,
+clicking, button up/down, key up/down, etc, and uses the XTest extension so
+you don't have the annoying problems that xse has when apps ignore sent
+events. The visgrep program find images inside of images and reports the
+coordinates, allowing programs to find buttons, etc, on the screen to click
+on.
+.PP
+xautomation consists in the following programs:
+.TP
+.B pat2ppm
+Converts an image file from PAT to PPM format.
+.TP
+.B patextract
+Extract a part of a PNG image file.
+.TP
+.B png2pat
+Converts an image file from PNG to PAT format.
+.TP
+.B rgb2pat
+Converts an image file from 24-bit RGB to PAT format
+.TP
+.B visgrep
+Visual grep, greps for images in another image.
+.TP
+.B xte
+Generates fake input using the XTest extension.
+
+.PP
+For more information, please see the individual manpages of these programs.
+
+.SH SEE ALSO
+.BR pat2ppm (1),
+.BR patextract (1),
+.BR png2pat (1),
+.BR rgb2pat (1),
+.BR visgrep (1),
+.BR xte (1).
+
+.SH AUTHOR
+.B xautomation
+was written by Steve Slaven <bpk@hoopajoo.net>.
+.PP
+This manual page was written by Aurelien Jarno <aurel32@debian.org>,
+for the Debian project (but may be used by others).

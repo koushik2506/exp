@@ -1,0 +1,11 @@
+Package: xnee
+Version: 1.08-3
+Architecture: armel
+Maintainer: Ross Burton <ross@debian.org>
+Installed-Size: 236
+Depends: libc6 (>= 2.5-5), libx11-6, libxext6, libxtst6
+Section: x11
+Priority: optional
+Description: X event recorder/replayer
+ Xnee is a suite of programs with recording, replaying and 'distribution'
+ capabilities for the X Window System protocol.

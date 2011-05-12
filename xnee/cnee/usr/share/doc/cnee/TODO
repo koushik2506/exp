@@ -1,0 +1,16 @@
+Main place for TODOs is at the GNU Xnee homepage: www.sandklef.com/xnee
+
+This file only contains small notes for the developers.
+
+
+pnee:
+
+
+libxnee:
+
+  xnee_info contains record and replay things, but is handled in xnee_record.c
+
+doc:
+
+Everywhere:
+  Comment the code

@@ -1,0 +1,108 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\"
+.\" Copyright (C), 2004 Aurelien Jarno
+.\"
+.\" You may distribute under the terms of the GNU General Public
+.\" License as specified in the file /usr/share/common-licences/GPLv2
+.\" that comes with the Debian distribution.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH VISGREP 1 "April 20, 2004"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+visgrep \- Visual grep, greps for images in another image
+.SH SYNOPSIS
+.B visgrep
+.I "[options] image.png detect.pat match.pat ..."
+.SH DESCRIPTION
+.B visgrep
+is a program that greps for image in another image.
+.PP
+All .pat files are created using
+.B png2pat(1)
+or
+.B rgb2pat(1)\c
+\&. The image.png is scanned for detect.pat starting from X,Y given in parameters.
+When detect.pat is found, then all the match.pat files are scanned at an offset of
+x,y given in parameters. If a match is found, then
+.B visgrep
+prints the x,y and index of the item.
+.PP
+For example, image.png is a screenshot and match1.pat .. match5.pat are images of
+letters a to e. Each of these letters is enclosed in a blue box, so detect.pat is
+an image of the upper left corner of the box. This box is not included in the
+match*.pat files, so they are actually offset 5 pixels down and 4 pixels to the left.
+You might run it like this then:
+.TP
+  visgrep \-x\-4 \-y5 image.png match_corner.pat match_a.pat match_b.bat ...
+.PP
+Etc, with all matches listed. Now suppose the screen showed ace so visgrep might output:
+.sp
+.br
+  10,10 0
+.br
+  50,10 2
+.br
+  90,10 4
+.PP
+Showing that match_a.pat (index 0) is at 10,10 on the screen. If no match is found even
+though the detection image is found, the index will be \-1.
+
+.SH OPTIONS
+A summary of options is included below.
+.TP
+.B \-h
+Show summary of options.
+.TP
+.B \-x
+Set x offset for detection matching.
+.TP
+.B \-y
+Set y offset for detection matching.
+.TP
+.B \-X
+Start scanning at X.
+.TP
+.B \-Y
+Start scanning at Y.
+.TP
+.B \-t
+Set tolerance for 'fuzzy' matches, higher numbers are more tolerant.
+
+.SH EXIT STATUS
+.TP
+.B 0
+at least one match was made.
+.TP
+.B 1
+no matches were made.
+.TP
+.B 2
+an error occured.
+
+.SH SEE ALSO
+.BR pat2ppm (1),
+.BR patextract (1),
+.BR png2pat (1),
+.BR rgb2pat (1),
+.BR xte (1).
+
+.SH AUTHOR
+.B visgrep
+was written by Steve Slaven <bpk@hoopajoo.net>.
+.PP
+This manual page was written by Aurelien Jarno <aurel32@debian.org>,
+for the Debian project (but may be used by others).

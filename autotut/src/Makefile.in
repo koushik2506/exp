@@ -1,0 +1,15 @@
+CC = @CC@
+VERSION = @VERSION@
+CFLAGS = @CFLAGS@
+
+all: hello-bin
+
+hello-bin: hello.c
+	$(CC) $(CFLAGS) -DVERSION=\"$(VERSION)\" hello.c -o hello
+
+clean:
+	rm -f hello
+
+distclean:
+
+	rm -f hello Makefile ../config.*

@@ -1,0 +1,128 @@
+%% Mundu Sync Config File
+
+% {config,
+%
+% {log,
+%  	    "<enabled:yes|no>",
+%	    "<logdir>"
+% },
+%
+% {nodes,
+%	'fsnode',
+%	'smsnode'
+% },
+%
+% {dbdetails,
+%	"type",
+%	'config:[nodelist: if type is mnesia, dsn if type is odbc]'
+% },
+%
+% {syncml_listener,
+%		"<enabled:yes|no>",
+%		"<Hostname>",
+%		<Port>,
+%		['<dbnode>'],
+%		'<fsnode>',
+%	        <idletimeout_in_seconds>,	
+%		<contact_photo_max_size_in_bytes>,	
+%		"<sync_url_as_visible_outside>"
+%
+%  },
+%
+%  {web_api_listener,
+%		{plain,
+%			"<enabled:yes|no>",
+%			"<Hostname>",
+%			<Port>
+%	        },
+%		{ssl,
+%			"<enabled:yes|no>",
+%			"<Hostname>",
+%			<Port>,
+%	  		{sslconfig,
+%				"<Path_to_server_certificate>",
+%				"<Path_to_CA_certificate>",
+%				"<Path_to_server_key>",
+%				"<Password_server_key>"}
+%		},
+%		"<http_fs_fileserver_root_url>"
+%  },
+%
+%  {mail_relay,
+%		<Port>,
+%		"<Hostname>",
+%		"<auth_type:plain|login>",
+%		"<username>",
+%		"<password>",
+%		"<from_name>",
+%		"<from_id>",
+%		"<subject>
+%   }
+%}
+%			
+{config,
+
+{log,
+	"yes",
+	"logs"
+},
+
+{nodes,
+	'fsnode@beta.picopeta.com',
+	'smsnode@gnu.geodesic.net'
+},
+
+%{dbdetails,
+%	"odbc",
+%	"DSN=mundusyncmysql;UID=root;PWD=picopeta"
+%},
+
+{dbdetails,
+	"mnesia",
+	['dbnode@beta.picopeta.com']
+},
+
+{syncml_listener,
+	"yes",
+	"s-syncml.geodesic.net",
+	80,
+	180,
+	15360,
+	"https://s-syncml.geodesic.net:444"
+},
+
+{web_api_listener,
+	{plain,
+		"yes",
+		"s-syncml.geodesic.net",
+		9014
+	},
+	{ssl_options,
+		"yes",
+		"s-syncml.geodesic.net",
+		443,
+	 	{sslconfig,
+	 		"../cert_a/syncml.stage.geodesic.com.crt",
+			"../cert_a/gd_bundle.crt",
+			"../cert_a/syncml.stage.geodesic.com.key",
+			"geoInfo08"
+		}
+	},
+	"http://beta.geodesic.net:82/",
+	1800,
+	"https://syncml.stage.geodesic.com/",
+	"http://cosmos.bangalore.geodesic.com:8090/mundu-sync/v0.9.05/mundu-sync/login.php?status=",
+	"http://cosmos.bangalore.geodesic.com:8090/mundu-sync/v0.9.11/mundu-sync/resetpass.php"
+},
+	
+{mail_relay,
+	25,
+	"mail.bangalore.geodesic.com",
+	"plain",
+	"",
+	"",
+	"Mundu Sync",
+	"support@mundusync.geodesic.com",
+	"mundu Sync password request"
+}
+}.

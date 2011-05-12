@@ -1,0 +1,849 @@
+
+=INFO REPORT==== 29-May-2009::10:15:38 ===
+Table 10000 time diff:16426101
+
+=INFO REPORT==== 29-May-2009::10:15:41 ===
+Table 4214 time diff:19922288
+
+=ERROR REPORT==== 29-May-2009::10:15:41 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [9925,
+                                                                              6466]}
+
+=INFO REPORT==== 29-May-2009::10:15:42 ===
+Table 6221 time diff:20510004
+
+=INFO REPORT==== 29-May-2009::10:15:46 ===
+Table 6222 time diff:22883876
+
+=INFO REPORT==== 29-May-2009::10:15:46 ===
+Table 6223 time diff:24843825
+
+=INFO REPORT==== 29-May-2009::10:15:50 ===
+Table 6224 time diff:27057640
+
+=INFO REPORT==== 29-May-2009::10:15:50 ===
+Table 6225 time diff:29190142
+
+=INFO REPORT==== 29-May-2009::10:15:54 ===
+Table 6226 time diff:31180382
+
+=INFO REPORT==== 29-May-2009::10:15:56 ===
+Table 6227 time diff:33296672
+
+=INFO REPORT==== 29-May-2009::10:15:57 ===
+Table 6228 time diff:35239025
+
+=INFO REPORT==== 29-May-2009::10:15:59 ===
+Table 6229 time diff:37703914
+
+=INFO REPORT==== 29-May-2009::10:16:01 ===
+Table 6230 time diff:39809378
+
+=ERROR REPORT==== 29-May-2009::10:16:03 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [5952,
+                                                                              5952]}
+
+=INFO REPORT==== 29-May-2009::10:16:03 ===
+Table 6231 time diff:41977595
+
+=INFO REPORT==== 29-May-2009::10:16:05 ===
+Table 6232 time diff:44151814
+
+=INFO REPORT==== 29-May-2009::10:16:09 ===
+Table 6233 time diff:46348179
+
+=INFO REPORT==== 29-May-2009::10:16:10 ===
+Table 6234 time diff:48345667
+
+=INFO REPORT==== 29-May-2009::10:16:13 ===
+Table 6235 time diff:50491371
+
+=INFO REPORT==== 29-May-2009::10:16:14 ===
+Table 6236 time diff:52521593
+
+=INFO REPORT==== 29-May-2009::10:16:18 ===
+Table 6237 time diff:54756315
+
+=INFO REPORT==== 29-May-2009::10:16:20 ===
+Table 6238 time diff:56857679
+
+=INFO REPORT==== 29-May-2009::10:16:22 ===
+Table 6239 time diff:58930202
+
+=ERROR REPORT==== 29-May-2009::10:16:22 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [8332,
+                                                                              6014]}
+
+=INFO REPORT==== 29-May-2009::10:16:24 ===
+Table 6240 time diff:60995995
+
+=INFO REPORT==== 29-May-2009::10:16:26 ===
+Table 6241 time diff:63028302
+
+=INFO REPORT==== 29-May-2009::10:16:28 ===
+Table 6242 time diff:65013861
+
+=INFO REPORT==== 29-May-2009::10:16:28 ===
+Table 6243 time diff:67065137
+
+=INFO REPORT==== 29-May-2009::10:16:30 ===
+Table 6244 time diff:68986053
+
+=INFO REPORT==== 29-May-2009::10:16:34 ===
+Table 6245 time diff:70978423
+
+=INFO REPORT==== 29-May-2009::10:16:36 ===
+Table 6246 time diff:73003238
+
+=INFO REPORT==== 29-May-2009::10:16:36 ===
+Table 6247 time diff:75058974
+
+=INFO REPORT==== 29-May-2009::10:16:40 ===
+Table 6248 time diff:77066755
+
+=INFO REPORT==== 29-May-2009::10:16:42 ===
+Table 6249 time diff:79039390
+
+=ERROR REPORT==== 29-May-2009::10:16:42 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [5952,
+                                                                              5997]}
+
+=INFO REPORT==== 29-May-2009::10:16:44 ===
+Table 6250 time diff:81070265
+
+=INFO REPORT==== 29-May-2009::10:16:46 ===
+Table 6251 time diff:83121685
+
+=INFO REPORT==== 29-May-2009::10:16:48 ===
+Table 6252 time diff:85121319
+
+=INFO REPORT==== 29-May-2009::10:16:50 ===
+Table 6253 time diff:87138837
+
+=INFO REPORT==== 29-May-2009::10:16:52 ===
+Table 6254 time diff:89104162
+
+=INFO REPORT==== 29-May-2009::10:16:54 ===
+Table 6255 time diff:91083152
+
+=INFO REPORT==== 29-May-2009::10:16:56 ===
+Table 6256 time diff:93082172
+
+=INFO REPORT==== 29-May-2009::10:16:58 ===
+Table 6257 time diff:95048105
+
+=INFO REPORT==== 29-May-2009::10:17:00 ===
+Table 6258 time diff:97125048
+
+=INFO REPORT==== 29-May-2009::10:17:00 ===
+Table 6259 time diff:99160890
+
+=ERROR REPORT==== 29-May-2009::10:17:02 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [5998,
+                                                                              5953]}
+
+=INFO REPORT==== 29-May-2009::10:17:03 ===
+Table 6260 time diff:101277673
+
+=INFO REPORT==== 29-May-2009::10:17:06 ===
+Table 6261 time diff:103371330
+
+=INFO REPORT==== 29-May-2009::10:17:07 ===
+Table 6262 time diff:105344965
+
+=INFO REPORT==== 29-May-2009::10:17:09 ===
+Table 6263 time diff:107282323
+
+=INFO REPORT==== 29-May-2009::10:17:12 ===
+Table 6264 time diff:109290604
+
+=INFO REPORT==== 29-May-2009::10:17:14 ===
+Table 6265 time diff:111284570
+
+=INFO REPORT==== 29-May-2009::10:17:16 ===
+Table 6266 time diff:113316387
+
+=INFO REPORT==== 29-May-2009::10:17:17 ===
+Table 6267 time diff:115337628
+
+=INFO REPORT==== 29-May-2009::10:17:19 ===
+Table 6268 time diff:117361146
+
+=INFO REPORT==== 29-May-2009::10:17:22 ===
+Table 6269 time diff:119411088
+
+=ERROR REPORT==== 29-May-2009::10:17:22 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [6030,
+                                                                              5999]}
+
+=INFO REPORT==== 29-May-2009::10:17:24 ===
+Table 6270 time diff:121416588
+
+=INFO REPORT==== 29-May-2009::10:17:26 ===
+Table 6271 time diff:123390035
+
+=INFO REPORT==== 29-May-2009::10:17:27 ===
+Table 6272 time diff:125468389
+
+=INFO REPORT==== 29-May-2009::10:17:29 ===
+Table 6273 time diff:128196345
+
+=INFO REPORT==== 29-May-2009::10:17:33 ===
+Table 6274 time diff:130584048
+
+=INFO REPORT==== 29-May-2009::10:17:35 ===
+Table 6275 time diff:132585039
+
+=INFO REPORT==== 29-May-2009::10:17:37 ===
+Table 6276 time diff:134521349
+
+=INFO REPORT==== 29-May-2009::10:17:38 ===
+Table 6277 time diff:136514582
+
+=INFO REPORT==== 29-May-2009::10:17:42 ===
+Table 6278 time diff:138806413
+
+=ERROR REPORT==== 29-May-2009::10:17:42 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [5952,
+                                                                              5998]}
+
+=INFO REPORT==== 29-May-2009::10:17:44 ===
+Table 6279 time diff:141012257
+
+=INFO REPORT==== 29-May-2009::10:17:44 ===
+Table 6280 time diff:143084999
+
+=INFO REPORT==== 29-May-2009::10:17:48 ===
+Table 6281 time diff:145053781
+
+=INFO REPORT==== 29-May-2009::10:17:50 ===
+Table 6282 time diff:147040024
+
+=INFO REPORT==== 29-May-2009::10:17:50 ===
+Table 6283 time diff:149060056
+
+=INFO REPORT==== 29-May-2009::10:17:54 ===
+Table 6284 time diff:150992915
+
+=INFO REPORT==== 29-May-2009::10:17:56 ===
+Table 6285 time diff:152980890
+
+=INFO REPORT==== 29-May-2009::10:17:56 ===
+Table 6286 time diff:154930930
+
+=INFO REPORT==== 29-May-2009::10:18:00 ===
+Table 6287 time diff:156853305
+
+=INFO REPORT==== 29-May-2009::10:18:02 ===
+Table 6288 time diff:159028858
+
+=ERROR REPORT==== 29-May-2009::10:18:02 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [5908,
+                                                                              5742]}
+
+=INFO REPORT==== 29-May-2009::10:18:02 ===
+Table 6289 time diff:161117726
+
+=INFO REPORT==== 29-May-2009::10:18:06 ===
+Table 6290 time diff:163077334
+
+=INFO REPORT==== 29-May-2009::10:18:08 ===
+Table 6291 time diff:164962236
+
+=INFO REPORT==== 29-May-2009::10:18:09 ===
+Table 6292 time diff:166938550
+
+=INFO REPORT==== 29-May-2009::10:18:09 ===
+Table 6293 time diff:167769272
+
+=INFO REPORT==== 29-May-2009::10:18:11 ===
+Table 6294 time diff:169743493
+
+=INFO REPORT==== 29-May-2009::10:18:13 ===
+Table 6295 time diff:171443542
+
+=INFO REPORT==== 29-May-2009::10:18:14 ===
+Table 6296 time diff:172940003
+
+=INFO REPORT==== 29-May-2009::10:18:16 ===
+Table 6297 time diff:174552282
+
+=INFO REPORT==== 29-May-2009::10:18:17 ===
+Table 6298 time diff:175900046
+
+=INFO REPORT==== 29-May-2009::10:18:18 ===
+Table 6299 time diff:176630899
+
+=INFO REPORT==== 29-May-2009::10:18:18 ===
+Table 6300 time diff:176655566
+
+=INFO REPORT==== 29-May-2009::10:18:21 ===
+Table 6301 time diff:178606072
+
+=INFO REPORT==== 29-May-2009::10:18:22 ===
+Table 6302 time diff:180331417
+
+=INFO REPORT==== 29-May-2009::10:18:24 ===
+Table 6303 time diff:182537456
+
+=INFO REPORT==== 29-May-2009::10:18:24 ===
+Table 6304 time diff:182817847
+
+=INFO REPORT==== 29-May-2009::10:18:24 ===
+Table 6305 time diff:182843333
+
+=INFO REPORT==== 29-May-2009::10:18:26 ===
+Table 6306 time diff:184227249
+
+=INFO REPORT==== 29-May-2009::10:18:26 ===
+Table 6307 time diff:184262977
+
+=INFO REPORT==== 29-May-2009::10:18:26 ===
+Table 6308 time diff:184288163
+
+=INFO REPORT==== 29-May-2009::10:18:28 ===
+Table 6309 time diff:186211191
+
+=INFO REPORT==== 29-May-2009::10:18:28 ===
+Table 6310 time diff:186235880
+
+=INFO REPORT==== 29-May-2009::10:18:29 ===
+Table 6311 time diff:187707718
+
+=INFO REPORT==== 29-May-2009::10:18:29 ===
+Table 6312 time diff:187743136
+
+=INFO REPORT==== 29-May-2009::10:18:29 ===
+Table 6313 time diff:187767294
+
+=INFO REPORT==== 29-May-2009::10:18:31 ===
+Table 6314 time diff:189708281
+
+=INFO REPORT==== 29-May-2009::10:18:31 ===
+Table 6315 time diff:189946921
+
+=INFO REPORT==== 29-May-2009::10:18:31 ===
+Table 6316 time diff:190000122
+
+=INFO REPORT==== 29-May-2009::10:18:33 ===
+Table 6317 time diff:191343235
+
+=INFO REPORT==== 29-May-2009::10:18:33 ===
+Table 6318 time diff:191380099
+
+=INFO REPORT==== 29-May-2009::10:18:33 ===
+Table 6319 time diff:191407194
+
+=INFO REPORT==== 29-May-2009::10:18:35 ===
+Table 6320 time diff:193310037
+
+=INFO REPORT==== 29-May-2009::10:18:35 ===
+Table 6321 time diff:193336235
+
+=INFO REPORT==== 29-May-2009::10:18:36 ===
+Table 6322 time diff:194416661
+
+=INFO REPORT==== 29-May-2009::10:18:36 ===
+Table 6323 time diff:194448014
+
+=INFO REPORT==== 29-May-2009::10:18:36 ===
+Table 6324 time diff:194476567
+
+=INFO REPORT==== 29-May-2009::10:18:36 ===
+Table 6325 time diff:195191546
+
+=INFO REPORT==== 29-May-2009::10:18:37 ===
+Table 6326 time diff:195220857
+
+=INFO REPORT==== 29-May-2009::10:18:37 ===
+Table 6327 time diff:195251670
+
+=INFO REPORT==== 29-May-2009::10:18:39 ===
+Table 6328 time diff:196747436
+
+=INFO REPORT==== 29-May-2009::10:18:39 ===
+Table 6329 time diff:197756642
+
+=INFO REPORT==== 29-May-2009::10:18:40 ===
+Table 6330 time diff:198696646
+
+=INFO REPORT==== 29-May-2009::10:18:40 ===
+Table 6331 time diff:198723816
+
+=INFO REPORT==== 29-May-2009::10:18:40 ===
+Table 6332 time diff:198748207
+
+=INFO REPORT==== 29-May-2009::10:18:43 ===
+Table 6333 time diff:200396636
+
+=INFO REPORT==== 29-May-2009::10:18:43 ===
+Table 6334 time diff:202107817
+
+=INFO REPORT==== 29-May-2009::10:18:43 ===
+Table 6335 time diff:202141115
+
+=INFO REPORT==== 29-May-2009::10:18:43 ===
+Table 6336 time diff:202176982
+
+=INFO REPORT==== 29-May-2009::10:18:47 ===
+Table 6337 time diff:204073418
+
+=INFO REPORT==== 29-May-2009::10:18:47 ===
+Table 6338 time diff:205648222
+
+=INFO REPORT==== 29-May-2009::10:18:48 ===
+Table 6339 time diff:206764244
+
+=INFO REPORT==== 29-May-2009::10:18:48 ===
+Table 6340 time diff:206791911
+
+=INFO REPORT==== 29-May-2009::10:18:48 ===
+Table 6341 time diff:206822304
+
+=INFO REPORT==== 29-May-2009::10:18:51 ===
+Table 6342 time diff:208093883
+
+=INFO REPORT==== 29-May-2009::10:18:51 ===
+Table 6343 time diff:209468357
+
+=INFO REPORT==== 29-May-2009::10:18:52 ===
+Table 6344 time diff:210707897
+
+=INFO REPORT==== 29-May-2009::10:18:52 ===
+Table 6345 time diff:210743966
+
+=INFO REPORT==== 29-May-2009::10:18:52 ===
+Table 6346 time diff:210771878
+
+=INFO REPORT==== 29-May-2009::10:18:54 ===
+Table 6347 time diff:211999734
+
+=INFO REPORT==== 29-May-2009::10:18:54 ===
+Table 6348 time diff:212803473
+
+=INFO REPORT==== 29-May-2009::10:18:54 ===
+Table 6349 time diff:212836955
+
+=INFO REPORT==== 29-May-2009::10:18:55 ===
+Table 6350 time diff:214100783
+
+=INFO REPORT==== 29-May-2009::10:18:55 ===
+Table 6351 time diff:214128397
+
+=INFO REPORT==== 29-May-2009::10:18:55 ===
+Table 6352 time diff:214151978
+
+=INFO REPORT==== 29-May-2009::10:18:56 ===
+Table 6353 time diff:215057676
+
+=INFO REPORT==== 29-May-2009::10:18:56 ===
+Table 6354 time diff:215092679
+
+=INFO REPORT==== 29-May-2009::10:18:56 ===
+Table 6355 time diff:215129064
+
+=INFO REPORT==== 29-May-2009::10:18:59 ===
+Table 6356 time diff:217921217
+
+=INFO REPORT==== 29-May-2009::10:19:01 ===
+Table 6357 time diff:219600997
+
+=INFO REPORT==== 29-May-2009::10:19:02 ===
+Table 6358 time diff:221143352
+
+=INFO REPORT==== 29-May-2009::10:19:05 ===
+Table 6359 time diff:223520677
+
+=INFO REPORT==== 29-May-2009::10:19:07 ===
+Table 6360 time diff:225544645
+
+=INFO REPORT==== 29-May-2009::10:19:10 ===
+Table 6361 time diff:227443509
+
+=INFO REPORT==== 29-May-2009::10:19:10 ===
+Table 6362 time diff:229030233
+
+=INFO REPORT==== 29-May-2009::10:19:11 ===
+Table 6363 time diff:230128205
+
+=INFO REPORT==== 29-May-2009::10:19:12 ===
+Table 6364 time diff:230242177
+
+=INFO REPORT==== 29-May-2009::10:19:12 ===
+Table 6365 time diff:230296453
+
+=INFO REPORT==== 29-May-2009::10:19:14 ===
+Table 6366 time diff:232365875
+
+=INFO REPORT==== 29-May-2009::10:19:14 ===
+Table 6367 time diff:232401507
+
+=INFO REPORT==== 29-May-2009::10:19:14 ===
+Table 6368 time diff:232462106
+
+=INFO REPORT==== 29-May-2009::10:19:15 ===
+Table 6369 time diff:233840533
+
+=INFO REPORT==== 29-May-2009::10:19:15 ===
+Table 6370 time diff:233876216
+
+=INFO REPORT==== 29-May-2009::10:19:15 ===
+Table 6371 time diff:233972255
+
+=INFO REPORT==== 29-May-2009::10:19:16 ===
+Table 6372 time diff:234832581
+
+=INFO REPORT==== 29-May-2009::10:19:16 ===
+Table 6373 time diff:234940632
+
+=INFO REPORT==== 29-May-2009::10:19:16 ===
+Table 6374 time diff:234996590
+
+=INFO REPORT==== 29-May-2009::10:19:18 ===
+Table 6375 time diff:237031494
+
+=INFO REPORT==== 29-May-2009::10:19:20 ===
+Table 6376 time diff:238287171
+
+=INFO REPORT==== 29-May-2009::10:19:20 ===
+Table 6377 time diff:238322036
+
+=INFO REPORT==== 29-May-2009::10:19:20 ===
+Table 6378 time diff:238376509
+
+=INFO REPORT==== 29-May-2009::10:19:20 ===
+Table 6379 time diff:239005530
+
+=INFO REPORT==== 29-May-2009::10:19:20 ===
+Table 6380 time diff:239080207
+
+=INFO REPORT==== 29-May-2009::10:19:20 ===
+Table 6381 time diff:239112378
+
+=INFO REPORT==== 29-May-2009::10:19:21 ===
+Table 6382 time diff:240016215
+
+=INFO REPORT==== 29-May-2009::10:19:21 ===
+Table 6383 time diff:240045005
+
+=INFO REPORT==== 29-May-2009::10:19:21 ===
+Table 6384 time diff:240092200
+
+=INFO REPORT==== 29-May-2009::10:19:24 ===
+Table 6385 time diff:241722619
+
+=INFO REPORT==== 29-May-2009::10:19:24 ===
+Table 6386 time diff:243136322
+
+=INFO REPORT==== 29-May-2009::10:19:25 ===
+Table 6387 time diff:244165179
+
+=INFO REPORT==== 29-May-2009::10:19:26 ===
+Table 6388 time diff:244196315
+
+=INFO REPORT==== 29-May-2009::10:19:26 ===
+Table 6389 time diff:244248403
+
+=INFO REPORT==== 29-May-2009::10:19:27 ===
+Table 6390 time diff:245250160
+
+=INFO REPORT==== 29-May-2009::10:19:27 ===
+Table 6391 time diff:245459037
+
+=INFO REPORT==== 29-May-2009::10:19:27 ===
+Table 6392 time diff:245485841
+
+=INFO REPORT==== 29-May-2009::10:19:28 ===
+Table 6393 time diff:247111717
+
+=INFO REPORT==== 29-May-2009::10:19:30 ===
+Table 6394 time diff:248392448
+
+=INFO REPORT==== 29-May-2009::10:19:30 ===
+Table 6395 time diff:248421280
+
+=INFO REPORT==== 29-May-2009::10:19:30 ===
+Table 6396 time diff:248476213
+
+=INFO REPORT==== 29-May-2009::10:19:30 ===
+Table 6397 time diff:249061316
+
+=INFO REPORT==== 29-May-2009::10:19:30 ===
+Table 6398 time diff:249089125
+
+=INFO REPORT==== 29-May-2009::10:19:30 ===
+Table 6399 time diff:249140977
+
+=INFO REPORT==== 29-May-2009::10:19:31 ===
+Table 6400 time diff:250098105
+
+=INFO REPORT==== 29-May-2009::10:19:31 ===
+Table 6401 time diff:250125400
+
+=INFO REPORT==== 29-May-2009::10:19:32 ===
+Table 6402 time diff:250205166
+
+=INFO REPORT==== 29-May-2009::10:19:33 ===
+Table 6403 time diff:251206705
+
+=INFO REPORT==== 29-May-2009::10:19:33 ===
+Table 6404 time diff:251292405
+
+=INFO REPORT==== 29-May-2009::10:19:33 ===
+Table 6405 time diff:251454896
+
+=INFO REPORT==== 29-May-2009::10:19:35 ===
+Table 6406 time diff:253372756
+
+=INFO REPORT==== 29-May-2009::10:19:36 ===
+Table 6407 time diff:254905161
+
+=INFO REPORT==== 29-May-2009::10:19:38 ===
+Table 6408 time diff:256485341
+
+=INFO REPORT==== 29-May-2009::10:19:40 ===
+Table 6409 time diff:258383930
+
+=INFO REPORT==== 29-May-2009::10:19:41 ===
+Table 6410 time diff:259901491
+
+=INFO REPORT==== 29-May-2009::10:19:43 ===
+Table 6411 time diff:261528996
+
+=INFO REPORT==== 29-May-2009::10:19:45 ===
+Table 6412 time diff:263449234
+
+=INFO REPORT==== 29-May-2009::10:19:46 ===
+Table 6413 time diff:265015277
+
+=INFO REPORT==== 29-May-2009::10:19:48 ===
+Table 6414 time diff:266553989
+
+=INFO REPORT==== 29-May-2009::10:19:49 ===
+Table 6415 time diff:268155457
+
+=ERROR REPORT==== 29-May-2009::10:19:51 ===
+Mnesia('createtable@gnu.geodesic.net'): ** WARNING ** Mnesia is overloaded: {mnesia_tm,
+                                                                             message_queue_len,
+                                                                             [194,
+                                                                              1943]}
+
+=INFO REPORT==== 29-May-2009::10:19:51 ===
+Table 6416 time diff:270056916
+
+=INFO REPORT==== 29-May-2009::10:19:52 ===
+Table 6417 time diff:270462495
+
+=INFO REPORT==== 29-May-2009::10:19:52 ===
+Table 6418 time diff:270489156
+
+=INFO REPORT==== 29-May-2009::10:19:52 ===
+Table 6419 time diff:270548970
+
+=INFO REPORT==== 29-May-2009::10:19:53 ===
+Table 6420 time diff:271401469
+
+=INFO REPORT==== 29-May-2009::10:19:53 ===
+Table 6421 time diff:271465042
+
+=INFO REPORT==== 29-May-2009::10:19:54 ===
+Table 6422 time diff:272913403
+
+=INFO REPORT==== 29-May-2009::10:19:54 ===
+Table 6423 time diff:273190090
+
+=INFO REPORT==== 29-May-2009::10:19:55 ===
+Table 6424 time diff:273265847
+
+=INFO REPORT==== 29-May-2009::10:19:55 ===
+Table 6425 time diff:273341797
+
+=INFO REPORT==== 29-May-2009::10:19:56 ===
+Table 6426 time diff:274890751
+
+=INFO REPORT==== 29-May-2009::10:19:58 ===
+Table 6427 time diff:276806567
+
+=INFO REPORT==== 29-May-2009::10:19:59 ===
+Table 6428 time diff:277616992
+
+=INFO REPORT==== 29-May-2009::10:19:59 ===
+Table 6429 time diff:277672517
+
+=INFO REPORT==== 29-May-2009::10:20:01 ===
+Table 6430 time diff:279913950
+
+=INFO REPORT==== 29-May-2009::10:20:03 ===
+Table 6431 time diff:281452713
+
+=INFO REPORT==== 29-May-2009::10:20:05 ===
+Table 6432 time diff:283229538
+
+=INFO REPORT==== 29-May-2009::10:20:05 ===
+Table 6433 time diff:283952743
+
+=INFO REPORT==== 29-May-2009::10:20:05 ===
+Table 6434 time diff:284004342
+
+=INFO REPORT==== 29-May-2009::10:20:06 ===
+Table 6435 time diff:285107774
+
+=INFO REPORT==== 29-May-2009::10:20:06 ===
+Table 6436 time diff:285169633
+
+=INFO REPORT==== 29-May-2009::10:20:07 ===
+Table 6437 time diff:285259236
+
+=INFO REPORT==== 29-May-2009::10:20:08 ===
+Table 6438 time diff:286661610
+
+=INFO REPORT==== 29-May-2009::10:20:08 ===
+Table 6439 time diff:287077669
+
+=INFO REPORT==== 29-May-2009::10:20:09 ===
+Table 6440 time diff:287226947
+
+=INFO REPORT==== 29-May-2009::10:20:09 ===
+Table 6441 time diff:287257954
+
+=INFO REPORT==== 29-May-2009::10:20:09 ===
+Table 6442 time diff:287309774
+
+=INFO REPORT==== 29-May-2009::10:20:09 ===
+Table 6443 time diff:287777363
+
+=INFO REPORT==== 29-May-2009::10:20:09 ===
+Table 6444 time diff:287833088
+
+=INFO REPORT==== 29-May-2009::10:20:11 ===
+Table 6445 time diff:289269685
+
+=INFO REPORT==== 29-May-2009::10:20:12 ===
+Table 6446 time diff:290257679
+
+=INFO REPORT==== 29-May-2009::10:20:12 ===
+Table 6447 time diff:290313012
+
+=INFO REPORT==== 29-May-2009::10:20:13 ===
+Table 6448 time diff:291397654
+
+=INFO REPORT==== 29-May-2009::10:20:13 ===
+Table 6449 time diff:291441491
+
+=INFO REPORT==== 29-May-2009::10:20:13 ===
+Table 6450 time diff:291519298
+
+=INFO REPORT==== 29-May-2009::10:20:14 ===
+Table 6451 time diff:292630106
+
+=INFO REPORT==== 29-May-2009::10:20:15 ===
+Table 6452 time diff:293329226
+
+=INFO REPORT==== 29-May-2009::10:20:15 ===
+Table 6453 time diff:293438526
+
+=INFO REPORT==== 29-May-2009::10:20:15 ===
+Table 6454 time diff:293489232
+
+=INFO REPORT==== 29-May-2009::10:20:16 ===
+Table 6455 time diff:294506623
+
+=INFO REPORT==== 29-May-2009::10:20:16 ===
+Table 6456 time diff:294597369
+
+=INFO REPORT==== 29-May-2009::10:20:16 ===
+Table 6457 time diff:294784490
+
+=INFO REPORT==== 29-May-2009::10:20:18 ===
+Table 6458 time diff:296368520
+
+=INFO REPORT==== 29-May-2009::10:20:19 ===
+Table 6459 time diff:297398142
+
+=INFO REPORT==== 29-May-2009::10:20:20 ===
+Table 6460 time diff:298733275
+
+=INFO REPORT==== 29-May-2009::10:20:22 ===
+Table 6461 time diff:300250086
+
+=INFO REPORT==== 29-May-2009::10:20:23 ===
+Table 6462 time diff:301877994
+
+=INFO REPORT==== 29-May-2009::10:20:24 ===
+Table 6463 time diff:302973853
+
+=INFO REPORT==== 29-May-2009::10:20:25 ===
+Table 6464 time diff:303648745
+
+=INFO REPORT==== 29-May-2009::10:20:26 ===
+Table 6465 time diff:305094096
+
+=INFO REPORT==== 29-May-2009::10:20:28 ===
+Table 6466 time diff:306277742
+
+=INFO REPORT==== 29-May-2009::10:20:29 ===
+Table 6467 time diff:307859462
+
+=INFO REPORT==== 29-May-2009::10:20:31 ===
+Table 6468 time diff:309578653
+
+=INFO REPORT==== 29-May-2009::10:20:32 ===
+Table 6469 time diff:310453495
+
+=INFO REPORT==== 29-May-2009::10:20:32 ===
+Table 6470 time diff:310485600
+
+=INFO REPORT==== 29-May-2009::10:20:32 ===
+Table 6471 time diff:310541891
+
+=INFO REPORT==== 29-May-2009::10:20:33 ===
+Table 6472 time diff:311378173
+
+=INFO REPORT==== 29-May-2009::10:20:33 ===
+Table 6473 time diff:311854577
+
+=INFO REPORT==== 29-May-2009::10:20:33 ===
+Table 6474 time diff:311922636
+
+=INFO REPORT==== 29-May-2009::10:20:35 ===
+Table 6475 time diff:313234044
+
+=INFO REPORT==== 29-May-2009::10:20:35 ===
+Table 6476 time diff:313267152
+
+=INFO REPORT==== 29-May-2009::10:20:35 ===
+Table 6477 time diff:313321565
+
+=INFO REPORT==== 29-May-2009::10:20:36 ===
+Table 6478 time diff:314493413
+
+=INFO REPORT==== 29-May-2009::10:20:38 ===
+Table 6479 time diff:316284209
+
+=INFO REPORT==== 29-May-2009::10:20:38 ===
+Table 6480 time diff:316925274
+
+=INFO REPORT==== 29-May-2009::10:20:40 ===
+Table 6481 time diff:318232627
+
+=INFO REPORT==== 29-May-2009::10:20:40 ===
+Table 6482 time diff:318816759
+
+=INFO REPORT==== 29-May-2009::10:20:40 ===
+Table 6483 time diff:318841702

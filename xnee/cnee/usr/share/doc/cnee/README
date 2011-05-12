@@ -1,0 +1,76 @@
+Xnee / README
+==============================================
+
+GNU Xnee is a GNU package. 
+
+For more information about GNU Xnee, please visit:
+        http://www.sandklef.com/xnee/
+
+For more information about GNU, please visit 
+	http://www.gnu.org
+
+
+
+
+Xnee consists of three parts:
+==============================================
+1) libxnee (libxnee is basically xnee) 
+A library containing most of the functionality.
+
+2) xnee (xnee's not an event emulator)
+A command line program using libxnee
+
+3) gnee (gnee's not an emulator either)
+A GUI program using libxnee
+
+4) pnee 
+A Gnome Panel Applet
+
+
+
+To build these three programs do the following:
+==============================================
+
+Building from dist file (e.g xnee-3.02.tar.gz):
+-----------------------------------------------
+
+#Unzip the source file
+gunzip xnee-3.02.tar.gz
+
+#Untar the source file
+tar xvf xnee-3.02.tar
+
+#Enter the Xnee directory
+cd xnee-3.02
+
+#Generate the makefiles and build
+./configure 
+make
+make install 
+
+if you need help on the configure options, do 
+./configure --help
+
+Typically you can:
+   * disable building gnee (--disable-gui) 
+   * disable building documentation (--disable-doc)
+   * enable building of pnee (--enable-gnome-applet)
+
+Building from CVS:
+-----------------------------------------------
+
+#Check out xnee
+cvs -z3 -d:pserver:anonymous@cvs.savannah.gnu.org:/sources/xnee co xnee
+
+#Enter the Xnee directory
+cd xnee
+
+#Generate the makefiles and build
+
+make -f Makefile.cvs
+./configure 
+make
+make install 
+
+
+

@@ -1,0 +1,51 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\"
+.\" Copyright (C), 2003 Aurelien Jarno
+.\"
+.\" You may distribute under the terms of the GNU General Public
+.\" License as specified in the file /usr/share/common-licences/GPLv2
+.\" that comes with the Debian distribution.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH PAT2PPM 1 "October 18, 2003"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+pat2ppm \- Converts an image file from PAT to PPM format.
+.SH SYNOPSIS
+.B pat2ppm
+.I "infile.pat"
+.SH DESCRIPTION
+.B pat2ppm
+is a program that converts an image file from PAT to PPM format.
+.PP
+infile is a PAT file; the resulting .ppm file is written to stdout.
+
+.SH OPTIONS
+This command does not have any options.
+
+.SH SEE ALSO
+.BR patextract (1),
+.BR png2pat (1),
+.BR rgb2pat (1),
+.BR visgrep (1),
+.BR xte (1).
+
+.SH AUTHOR
+.B pat2ppm
+was written by Steve Slaven <bpk@hoopajoo.net>.
+.PP
+This manual page was written by Aurelien Jarno <aurel32@debian.org>,
+for the Debian project (but may be used by others).

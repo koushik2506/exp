@@ -1,0 +1,6 @@
+#!/usr/bin/env escript
+
+main(_) ->
+	io:setopts([{echo,false}]),
+	String = io:get_line("Enter:"),
+	io:format("Got :~s~n",[String]).

@@ -1,0 +1,54 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\"
+.\" Copyright (C), 2003 Aurelien Jarno
+.\"
+.\" You may distribute under the terms of the GNU General Public
+.\" License as specified in the file /usr/share/common-licences/GPLv2
+.\" that comes with the Debian distribution.
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH RGB2PAT 1 "October 18, 2003"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+rgb2pat \- Converts an image file from 24-bit RGB to PAT format.
+.SH SYNOPSIS
+.B rgb2pat
+.I "infile width height"
+.SH DESCRIPTION
+.B rgb2pat
+is a program that converts an image file from 24-bit RGB to PAT format.
+.PP
+infile is an 24-bit RGB file of width/height; the resulting .pat file is written to stdout.
+The file can be used with
+.B visgrep(1)
+to scrape screen content.
+
+.SH OPTIONS
+This command does not have any options.
+
+.SH SEE ALSO
+.BR pat2ppm (1),
+.BR patextract (1),
+.BR png2pat (1),
+.BR visgrep (1),
+.BR xte (1).
+
+.SH AUTHOR
+.B rgb2pat
+was written by Steve Slaven <bpk@hoopajoo.net>.
+.PP
+This manual page was written by Aurelien Jarno <aurel32@debian.org>,
+for the Debian project (but may be used by others).
